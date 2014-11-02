@@ -1,0 +1,27 @@
+{
+  "author": "Dennis Torres <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/d-newrelic/issues"
+  },
+  "description": "A Derby JS component for New Relic's RUM (Real User Monitoring) script.",
+  "keywords": [
+    "component",
+    "derby",
+    "newrelic"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "d-newrelic",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psirenny/d-newrelic.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0",
+  "dependencies": {
+    "derby": "^0.6.0-alpha25"
+  }
+}

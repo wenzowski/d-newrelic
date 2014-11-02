@@ -8,7 +8,6 @@ Component.prototype.init = function () {
   if (!derby.util.isServer) return;
   var newrelic = require('newrelic');
   var script = newrelic.getBrowserTimingHeader();
-  console.log(script);
   this.model.root.set('$newrelic.script', script);
 };
 

@@ -11,4 +11,8 @@ Component.prototype.init = function () {
   this.model.root.set('$newrelic.script', script);
 };
 
+Component.prototype.destroy = function () {
+  this.model.del('$newrelic');
+};
+
 module.exports = Component;

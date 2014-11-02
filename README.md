@@ -1,7 +1,7 @@
 Derby New Relic
 ===============
 
-A Derby JS component for New Relic's RUM (Real User Monitoring) script.
+A [Derby JS](http://derbyjs.com) component for [New Relic's](http://newrelic.com) RUM (Real User Monitoring) script.
 
 Installation
 ------------

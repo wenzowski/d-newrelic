@@ -12,7 +12,7 @@ Component.prototype.init = function () {
 };
 
 Component.prototype.destroy = function () {
-  this.model.del('$newrelic');
+  this.model.root.del('$newrelic');
 };
 
 module.exports = Component;

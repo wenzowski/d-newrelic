@@ -3,6 +3,9 @@
   "bugs": {
     "url": "https://github.com/psirenny/d-newrelic/issues"
   },
+  "dependencies": {
+    "derby": "^0.6.0-alpha25"
+  },
   "description": "A Derby JS component for New Relic's RUM (Real User Monitoring) script.",
   "keywords": [
     "component",
@@ -20,8 +23,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.3",
-  "dependencies": {
-    "derby": "^0.6.0-alpha25"
-  }
+  "version": "1.0.3"
 }
